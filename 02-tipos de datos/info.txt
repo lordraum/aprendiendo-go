@@ -1,0 +1,17 @@
+En Go, los tipos de datos se dividen en dos categorías principales: tipos básicos y tipos compuestos.
+
+Los tipos básicos son aquellos que representan valores únicos, y se dividen en los siguientes tipos:
+
+bool: tipo booleano, que puede tomar los valores true o false.
+string: tipo cadena de caracteres, que representa una secuencia de caracteres Unicode.
+int, int8, int16, int32, int64: tipos enteros con signo de distintos tamaños en bits.
+uint, uint8 (alias de byte), uint16, uint32, uint64: tipos enteros sin signo de distintos tamaños en bits.
+float32, float64: tipos flotantes de precisión simple y doble, respectivamente.
+complex64, complex128: tipos complejos de precisión simple y doble, respectivamente.
+Por otro lado, los tipos compuestos son aquellos que están formados por la combinación de otros tipos. Los tipos compuestos se dividen en los siguientes tipos:
+
+array: tipo de datos que representa una secuencia fija de elementos del mismo tipo.
+slice: tipo de datos que representa una secuencia variable de elementos del mismo tipo.
+map: tipo de datos que representa una colección de pares clave-valor, donde las claves son únicas y los valores pueden ser de cualquier tipo.
+struct: tipo de datos que representa una colección de campos con nombres, cada uno con un tipo específico.
+pointer: tipo de datos que representa una dirección de memoria, que se utiliza para acceder a otros tipos de datos de manera indirecta.
