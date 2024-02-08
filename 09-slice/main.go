@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	// Un slice es como un array pero con la longitud no definida
+	// Un slice es una lista con longitud no definida
 	nums := []int{1, 2, 3}
 
-	colores := [...]string{"Azul", "blanco", "verde", "Rojo", "Naranja"}
+	colores := []string{"Azul", "blanco", "verde", "Rojo", "Naranja"}
 	// Crear slice a partir de un array
 	subArray := colores[3:]
 

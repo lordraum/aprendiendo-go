@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// las structs permiten almacenar diferentes tipos de datos
+// las structs crean 'tipos' personalizados que permiten almacenar diferentes tipos de datos
 
 // Crear struct
 type User struct {
@@ -23,5 +23,4 @@ func main() {
 	fmt.Printf("%+v", Martha) // Imprime key:value
 	// Invocar el método de la instancia
 	Martha.say_hello()
-
 }

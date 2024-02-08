@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// var nombreArray [longitud]tipoDeDatos, los arrays solo pueden contener un tipo de dato.
+// var nombreArray [longitud]tipoDeDato, los arrays solo pueden contener un tipo de dato.
 
 var miArray [5]int
 

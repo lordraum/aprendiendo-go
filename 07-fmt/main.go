@@ -17,7 +17,7 @@ func main() {
 	//age := 40
 
 	// Impresión simple
-	//fmt.Print(hola + " " + mundo)
+	//fmt.Println(hola + " " + mundo)
 
 	// Impresión con salto de línea
 	//fmt.Println(hola)

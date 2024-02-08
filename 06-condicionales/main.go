@@ -8,13 +8,15 @@ func main() {
 	y := 12
 	mensaje := ""
 
+	// if
+
 	if a > 2 {
 		mensaje = " El número es mayor que 2"
 	} else {
 		mensaje = " El número no es mayor que 2"
 	}
 
-	// if else
+	// else if
 	if x < 0 {
 		fmt.Println("x es negativo")
 	} else if x == 0 {

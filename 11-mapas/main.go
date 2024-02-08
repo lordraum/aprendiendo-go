@@ -4,20 +4,22 @@ import "fmt"
 
 // Map => Colección desordenada tipo clave/valor
 // Crear con make(map[typeKey]typeValue)
-/*
+
 // Crear con asignación
-m := map[TipoClave]TipoValor{
+/* m := map[TipoClave]TipoValor{
   clave1: valor1,
   clave2: valor2,
   clave3: valor3,
-}
+} */
+// Ejemplo
+/* n := map[string]int{"foo": 1, "bar": 2} */
 
-*/
 // borrar =>  delete(map, key)
 
 // Se puede usar arrays, slices, etc como valor
 
 func main() {
+	// Crear map con función make
 	dias := make(map[int]string)
 
 	dias[1] = "Lunes"
