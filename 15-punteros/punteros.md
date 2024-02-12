@@ -20,7 +20,7 @@ var p *int = &v
 fmt.Printf("p apunta hacia: %v cuyo valor es %v", p, *p)
 // p apunta hacia: 0xc00009a058 cuyo valor es 4
 ```
-`El puntero p` referencia una posición de memoria `al 'desreferenciar' => *p` devuelve el valor de esta posición.
+`El puntero p` referencia a una posición de memoria `al 'desreferenciar' => *p` devuelve el valor de esta posición.
 
 ### Cambio de valor en la variable original
 Al indicar al puntero que asigne un nuevo valor a lo posición a la cual apunta, cambiará también el valor de la variable original.
@@ -70,5 +70,5 @@ func main() {
 }
 ```
 
-Continúa en [lista de clientes  con struct y punterops](https://youtu.be/NZZ_Yrdd-2U?t=1120)
+Continúa en [lista de clientes  con struct y punteros](https://youtu.be/NZZ_Yrdd-2U?t=1120)
 
