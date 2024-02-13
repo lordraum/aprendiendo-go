@@ -2,7 +2,7 @@
 
 Reglas a cumplir para que dos partes trabajen en conjunto. Funciona como un `tipo` que implementa un conjunto de métodos.
 
-Se puede también entender la interfaz como un índice que agrupa métodos, funciones, de `tipos` similares. Por ejemplo la interfaz `Animal` puede amacenar los métodos de los tipos `Perro`, `Gato`, etc.
+Se puede también entender la interfaz como un índice que agrupa métodos, funciones de `tipos` similares. Por ejemplo la interfaz `Animal` puede amacenar los métodos de los tipos `Perro`, `Gato`, etc.
 
 ## Sintáxis
 
@@ -18,3 +18,4 @@ type Shape interface {
 - Ejercicio
     - Crear ejercicio que establezca la interfaz `Shape`
         - Esta interfaz indexará los métodos `Perimeter` del tipo `Circle` y `Area` del tipo `rectangle`
+        - Implementar el tipo triángulo.
