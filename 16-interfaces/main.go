@@ -8,10 +8,13 @@ import (
 func main() {
 	myCircle := Circle{25}
 	myRectangle := Rectangle{10, 5}
-	fmt.Println("El perímetro del círculo es:")
+	myTriangle := Triangle{10, 5, 6, 8}
+	fmt.Println("Perímetro y area del círculo")
 	printShapeProperties(myCircle)
-	fmt.Println("El área del rectángulo es:")
+	fmt.Println("Perímetro y area del rectángulo")
 	printShapeProperties(myRectangle)
+	fmt.Println("Perímetro y area del triángulo")
+	printShapeProperties(myTriangle)
 }
 
 type Circle struct {
@@ -21,6 +24,13 @@ type Circle struct {
 type Rectangle struct {
 	b float64
 	h float64
+}
+
+type Triangle struct {
+	b  float64
+	h  float64
+	bh float64 // l1
+	hc float64 // l2
 }
 
 type Shape interface {
@@ -38,6 +48,14 @@ func (c Circle) area() float64 {
 
 func (r Rectangle) perimeter() float64 {
 	return 2 * (r.b + r.h)
+}
+
+func (t Triangle) area() float64 {
+	return t.b * t.h / 2
+}
+
+func (t Triangle) perimeter() float64 {
+	return t.bh + t.hc + t.b
 }
 
 func (r Rectangle) area() float64 {
