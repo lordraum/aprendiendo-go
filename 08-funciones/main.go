@@ -21,3 +21,7 @@ func main() {
 	fmt.Println(restar(3, 5))
 
 }
+
+// Las funciones públicas se declaran con CapitalCase, las privadas cons lowercase
+// públicas --> Son accesibles para otros módulos
+// privadas --> No son accesibles
