@@ -1,8 +1,6 @@
 # Interfaces
 
-Reglas a cumplir para que dos partes trabajen en conjunto. Funciona como un `tipo` que implementa un conjunto de métodos.
-
-Se puede también entender la interfaz como un índice que agrupa métodos, funciones de `tipos` similares. Por ejemplo la interfaz `Animal` puede amacenar los métodos de los tipos `Perro`, `Gato`, etc.
+Indice que agrupa métodos, funciones de `tipos` similares. Por ejemplo la interfaz `Animal` puede amacenar los métodos de los tipos `Perro`, `Gato`, etc.
 
 ## Sintáxis
 
